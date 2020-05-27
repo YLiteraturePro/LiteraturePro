@@ -141,18 +141,20 @@ if __name__ == '__main__':
       python chaos.py -i encryption.png -m dn -k 3.57245
 
 ## :eyes:实现效果
-这是算法的一些结果(从左到右是输入，加密，输出)
-*Png
+
+* 这是算法的一些结果(从左到右是输入，加密，输出)
+
+* Png
 <p align='center'>
-  <img src='image/test.png' height='194' width='290'/>
-  <img src='image/encryption.png' height='194' width='290'/>
-  <img src='image/decryption.png' height='194' width='290'/>
+  <img src='image/test.png' height='290' width='290'/>
+  <img src='image/encryption.png' height='290' width='290'/>
+  <img src='image/decryption.png' height='290' width='290'/>
 </p>
-*Jpg
+* Jpg
 <p align='center'>
-  <img src='image/test.jpg' height='194' width='290'/>
-  <img src='image/encryption.jpg' height='194' width='290'/>
-  <img src='image/decryption.jpg' height='194' width='290'/>
+  <img src='image/test.jpg' height='290' width='290'/>
+  <img src='image/encryption.jpg' height='290' width='290'/>
+  <img src='image/decryption.jpg' height='290' width='290'/>
 </p>
 
 
