@@ -123,7 +123,7 @@ if __name__ == '__main__':
 ```
 
 
-
+*  -m 代表选择加密/解密，-k 代表密钥，-i 则代表待处理的图像。
 #### 加密jpg
 
       python chaos.py -i test.jpg -k 3.57245
