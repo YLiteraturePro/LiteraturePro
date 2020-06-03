@@ -1,0 +1,78 @@
+//满意度
+(function(){
+    var done = false;
+    var length = document.getElementById("iframeautoheight").contentWindow.document.getElementById("pjkc").getElementsByTagName("option").length;
+    var count = 0;
+    try{
+        var setAll = function(){
+            var selects = document.getElementById("iframeautoheight").contentWindow.document.getElementsByClassName("datelist")[0].getElementsByTagName("select");
+            	selects[0].value="相对认同";
+	for(var i =1; i < selects.length;i++){
+                selects[i].value="完全认同";
+            };
+        };
+        var submitData = function(){
+            if(done) return;
+            if(count >= length) {
+                console.log("all done, have fun!");
+                done = true;
+                document.getElementById("iframeautoheight").contentWindow.document.getElementById("Button2").click();
+                return;
+            }
+            count ++;
+            document.getElementById("iframeautoheight").contentWindow.document.getElementById("Button1").click();
+        };
+        document.getElementById("iframeautoheight").addEventListener("load", function(){
+            setAll();
+            submitData();
+        });
+        setAll();
+        submitData();
+    }
+    catch(e){
+        done = true;
+    }
+})();
+
+
+
+//
+
+
+
+
+
+(function(){
+    var done = false;
+    var length = document.getElementById("iframeautoheight").contentWindow.document.getElementById("pjkc").getElementsByTagName("option").length;
+    var count = 0;
+    try{
+        var setAll = function(){
+            var selects = document.getElementById("iframeautoheight").contentWindow.document.getElementsByClassName("datelist")[0].getElementsByTagName("select");
+            	selects[0].value="较好";
+	for(var i =1; i < selects.length;i++){
+                selects[i].value="好";
+            };
+        };
+        var submitData = function(){
+            if(done) return;
+            if(count >= length) {
+                console.log("all done, have fun!");
+                done = true;
+                document.getElementById("iframeautoheight").contentWindow.document.getElementById("Button2").click();
+                return;
+            }
+            count ++;
+            document.getElementById("iframeautoheight").contentWindow.document.getElementById("Button1").click();
+        };
+        document.getElementById("iframeautoheight").addEventListener("load", function(){
+            setAll();
+            submitData();
+        });
+        setAll();
+        submitData();
+    }
+    catch(e){
+        done = true;
+    }
+})();
