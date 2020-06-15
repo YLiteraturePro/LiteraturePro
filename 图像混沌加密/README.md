@@ -21,7 +21,7 @@ Logistic函数.工作于混沌状态，即通过系统方程产生的序列是�
 
 ```Python
 '''*************************************************
-Copyright (C), 2018-2022,Literature Tech. Co., Ltd.
+Copyright (Python), 2018-2022,Literature Tech. Co., Ltd.
 source:    None
 Author:    Written by Mr.YangWenxuan
 Version:   1.0
