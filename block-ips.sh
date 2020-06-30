@@ -1,7 +1,6 @@
 #! /bin/bash
 #Block-IPs-from-countries
 
-
 Green="\033[32m"
 Font="\033[0m"
 
